@@ -6,7 +6,6 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-0.4+-FF6B6B?style=for-the-badge)
 ![Groq](https://img.shields.io/badge/Groq_Cloud-LLM-F55036?style=for-the-badge)
 ![Tavily](https://img.shields.io/badge/Tavily-Search-4A90D9?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **A production-grade, cyclical multi-agent system that researches, validates, and synthesises business intelligence — autonomously.**
 
@@ -294,11 +293,6 @@ The `add_messages` reducer on the `messages` field means every agent **appends**
 
 ---
 
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
 
 <div align="center">
 
