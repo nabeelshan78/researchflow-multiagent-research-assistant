@@ -1,4 +1,4 @@
-# 🔬 Multi-Agent Business Research Assistant
+# Multi-Agent Business Research Assistant
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 🧠 What Is This?
+## What Is This?
 
 This is not a chatbot wrapper. This is a **stateful, cyclical AI pipeline** built on LangGraph where four specialised agents collaborate to answer business research queries — each with a single responsibility, communicating through a shared typed state object.
 
@@ -28,23 +28,23 @@ User Query → Clarity Check → Research → Validate → (loop if needed) → 
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🤖 **4 Specialised Agents** | Clarity, Research, Validator, Synthesis — each owns one job |
-| 🔄 **Cyclical Validation Loop** | Research → Validate → Research again until quality threshold is met |
-| 🙋 **Human-in-the-Loop** | Graph pauses mid-execution to ask for clarification, then resumes exactly where it left off |
-| 🧠 **Iterative Clarification** | Re-evaluates query clarity after each user response — never blindly proceeds |
-| 💰 **Dual-Model Cost Strategy** | Fast model for classification, reasoning model for research and synthesis |
-| 🔍 **Tavily Web Search** | Real-time business data via targeted multi-query search execution |
-| 💾 **Checkpointed State** | Full MemorySaver checkpointing — interrupt/resume across any graph node |
-| 📜 **Multi-turn Memory** | Conversation history flows through every agent with automatic context trimming |
-| 🏗️ **Production Structure** | Typed state schema, custom exception hierarchy, factory pattern for all clients |
+| **4 Specialised Agents** | Clarity, Research, Validator, Synthesis — each owns one job |
+| **Cyclical Validation Loop** | Research → Validate → Research again until quality threshold is met |
+| **Human-in-the-Loop** | Graph pauses mid-execution to ask for clarification, then resumes exactly where it left off |
+| **Iterative Clarification** | Re-evaluates query clarity after each user response — never blindly proceeds |
+| **Dual-Model Cost Strategy** | Fast model for classification, reasoning model for research and synthesis |
+| **Tavily Web Search** | Real-time business data via targeted multi-query search execution |
+| **Checkpointed State** | Full MemorySaver checkpointing — interrupt/resume across any graph node |
+| **Multi-turn Memory** | Conversation history flows through every agent with automatic context trimming |
+| **Production Structure** | Typed state schema, custom exception hierarchy, factory pattern for all clients |
 
 ---
 
-## 🏛️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
