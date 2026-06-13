@@ -113,8 +113,8 @@ multi_agent_system/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/nabeelshan78/multi_agent_system.git
-cd multi_agent_system
+git clone https://github.com/nabeelshan78/researchflow-multiagent-research-assistant.git
+cd researchflow-multiagent-research-assistant
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
